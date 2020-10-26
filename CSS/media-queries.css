@@ -1,14 +1,14 @@
 .alert-info{
     display: flex;
-    justify-content: center;
-    /*margin: 15em 15em;*/
+   justify-content: center;
     text-align: center;
-    text-decoration-line: none;
-    color: black;
-    /*padding: 4em 2em 2em;*/
-    border: 1px grey;
+    border: 3px lightgrey solid;
     background-color: lightskyblue;
-
+    margin: auto;
+    padding: 1em 2em;
+    /*width: 800px;*/
+    /*height: 50px;*/
+    font-size: 2em;
 
 }
 .hidden-on-desktop{
@@ -26,8 +26,8 @@ ul{
 }
 .header-img{
     display: flex;
-    justify-content: center;
-
+    /*justify-content: center;*/
+    align-items: center;
 }
 #main{
     text-decoration: none;
@@ -42,5 +42,15 @@ ul{
 
 }
 /*body{*/
-/*    background-color: blue;*/
+/*    margin: 0px 10px;*/
+
+/*    display: flex;*/
+/*    flex-direction: column;*/
 /*}*/
+html{
+    box-sizing: border-box;
+}
+a{
+    text-decoration-line: none;
+    color: black;
+}
