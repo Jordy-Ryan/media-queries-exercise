@@ -1,10 +1,46 @@
 .alert-info{
+    display: flex;
+    justify-content: center;
+    /*margin: 15em 15em;*/
+    text-align: center;
+    text-decoration-line: none;
+    color: black;
+    /*padding: 4em 2em 2em;*/
+    border: 1px grey;
+    background-color: lightskyblue;
+
 
 }
 .hidden-on-desktop{
-
+    text-decoration-line: none;
+}
+h1{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
 }
 
 .nav-links{
+    text-align: center;
+}
+.header-img{
+    display: flex;
+    justify-content: center;
 
 }
+#main{
+    text-decoration: none;
+}
+.main{
+
+}
+.sub-section{
+
+}
+#social-media-links{
+
+}
+/*body{*/
+/*    background-color: blue;*/
+/*}*/
